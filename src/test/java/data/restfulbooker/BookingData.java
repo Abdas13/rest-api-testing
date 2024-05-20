@@ -12,4 +12,5 @@ public class BookingData {
     private boolean depositpaid;
     private BookingDates bookingdates;
     private String additionalneeds;
+
 }
