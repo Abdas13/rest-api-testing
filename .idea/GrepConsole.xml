@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GrepConsole">
+    <option name="tailHistory">
+      <TailHistory>
+        <option name="items">
+          <set>
+            <TailItem>
+              <option name="path" value="$PROJECT_DIR$/target/allure-results/4a788f80-0886-4ce9-a4e8-110d9444b2bf-container.json" />
+            </TailItem>
+          </set>
+        </option>
+      </TailHistory>
+    </option>
+  </component>
+</project>
