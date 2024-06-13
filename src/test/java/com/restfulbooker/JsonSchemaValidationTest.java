@@ -5,9 +5,7 @@ import data.restfulbooker.BookingData;
 import io.qameta.allure.*;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import org.testng.annotations.Test;
-
 import java.io.InputStream;
-
 import static data.restfulbooker.BookingDataBuilder.getBookingData;
 import static io.restassured.RestAssured.given;
 
@@ -16,7 +14,6 @@ import static io.restassured.RestAssured.given;
 public class JsonSchemaValidationTest extends BaseSetup {
 
     private int bookingId;
-
 
     @Test(priority = 1)
     @Description("Example test for checking json schema for new booking - Post request")
@@ -56,5 +53,4 @@ public class JsonSchemaValidationTest extends BaseSetup {
                 .assertThat()
                 .body(JsonSchemaValidator.matchesJsonSchema(getBookingJsonSchema));
     }
-
 }
